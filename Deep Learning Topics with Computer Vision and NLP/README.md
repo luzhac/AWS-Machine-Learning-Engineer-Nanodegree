@@ -18,7 +18,7 @@ Upload the data to an S3 bucket through the AWS Gateway so that SageMaker has ac
 What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
 Remember that your README should:
-- ![ Include a screenshot of completed training jobs](images/Screenshot 2024-12-22 112613.png)  
+- ![ Include a screenshot of completed training jobs](images/112613.png)  
 - Logs metrics during the training process:
   test_loss = running_loss / len(test_loader.dataset)
   test_acc = running_corrects/ len(test_loader.dataset)
@@ -41,9 +41,9 @@ Try bigger Batch Size,lower Learning Rate.
 
 
 ## Model Deployment
-**TODO**: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
-
-**TODO** Remember to provide a screenshot of the deployed active endpoint in Sagemaker.
+****: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+Deploy the model using the tuner object; query the endpoint using predictor.predict, but got error.
+**** Remember to provide a screenshot of the deployed active endpoint in Sagemaker.
 ![ a screenshot of the deployed active endpoint in Sagemaker](images/Screenshot 2024-12-22 135849.png)  
 ## Standout Suggestions
 **TODO (Optional):** This is where you can provide information about any standout suggestions that you have attempted.
