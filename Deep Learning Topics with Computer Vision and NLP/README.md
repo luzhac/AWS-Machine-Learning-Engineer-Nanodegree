@@ -42,9 +42,11 @@ Try bigger Batch Size,lower Learning Rate.
 
 ## Model Deployment
 ****: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+
 Deploy the model using the tuner object; query the endpoint using predictor.predict, but got error.
 
 **** Remember to provide a screenshot of the deployed active endpoint in Sagemaker.
+
 ![ a screenshot of the deployed active endpoint in Sagemaker](images/135849.png)  
 
 ## Standout Suggestions
