@@ -204,7 +204,9 @@ def main(args):
     '''
      Save the trained model
     '''
-    torch.save(model.state_dict(),"/opt/ml/model/model.pth")
+    #torch.save(model.state_dict(),"/opt/ml/model/model.pth")
+    scripted_model = torch.jit.script(model)
+    torch.jit.save(scripted_model, "/opt/ml/model/model.pth")
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
