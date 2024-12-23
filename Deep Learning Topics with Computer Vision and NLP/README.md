@@ -29,13 +29,16 @@ Remember that your README should:
 
 ## Debugging and Profiling
 ****: Give an overview of how you performed model debugging and profiling in Sagemaker
+
  Set up debugging and profiling rules and hooks first, then run the estimator.
 ### Results
 ****: What are the results/insights did you get by profiling/debugging your model?
+
 The validation loss diverges significantly, which mean Overfitting.
 Try bigger Batch Size,lower Learning Rate.
 
 **** Remember to provide the profiler html/pdf file in your submission.
+
 ![ profiler html](profiler-report.html)  
 
 
